@@ -1,3 +1,7 @@
+"rules": {
+    "comma-dangle": 0,
+    "no-console": 0
+  }
 
 const express = require('express')
 const app = express()
