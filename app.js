@@ -1,8 +1,3 @@
-"rules": {
-    "comma-dangle": 0,
-    "no-console": 0
-  }
-
 const express = require('express')
 const app = express()
 
@@ -14,5 +9,5 @@ const PORT = 8080 || 5000
 app.use(express.static('dist'))
 
 app.listen(PORT, () => {
-  Console.log('server started on port 5000')
+  console.log('server started on port 5000')
 })
